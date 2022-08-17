@@ -1,0 +1,241 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* *
+.header {
+    background-image: url("https://images.wallpaperscraft.ru/image/single/devushka_fotograf_art_118146_1920x1080.jpg");
+    height: 875px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position: top center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    margin: 6px;
+    padding: 40px;
+    align-items: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+.navBar {
+    color: black;
+}
+
+li {
+    padding: 22px 20px;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.num_logo { 
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navBar:hover {
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li:hover {
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    border-image-slice: 1;
+}
+
+i:hover {
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    border-image-slice: 1;
+} */
+
+.bold {
+    font-weight: bolder;
+    margin-top: 25px;
+    color: black;
+}
+
+.num_logo { 
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+li:hover {
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    border-image-slice: 1;
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li {
+    padding: 22px 20px;
+    font-weight: bold;
+} 
+
+nav {
+    height: 70px;
+    position: absolute;
+    top: 6px;
+}
+
+
+
+.header {
+    background-image: url("https://images.wallpaperscraft.ru/image/single/devushka_fotograf_art_118146_1920x1080.jpg");
+    height: 875px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position: top center;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+}
+
+.bad {
+    border-radius: 50%;
+}
+
+.bad:hover {
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div {
+    position: absolute;
+    bottom: 100px;
+    left: 260px;
+    z-index: 1;
+    width: 0px;
+}
+
+.div h4 {
+    box-shadow: rgb(0, 0, 0) 5px 10px 10px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    z-index: 1;
+}
+
+.div .medium {
+    width: 250px;
+}
+
+.div .small {
+    width: 200px;
+}
+
+.div .big {
+    width: 300px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+    border-radius: 50%;
+    position: absolute;
+    z-index: -100;
+    left: -40px;
+    top: 100px;
+}
+
+.description {
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description div {
+    display: flex;
+    align-items: center;
+}
+
+.popular {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+}
+
+.content p {
+    margin: 10px;
+    padding: 13px;
+    border: 1px solid gray;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background: linear-gradient(45deg, rgb(1, 89, 1), rgb(39, 255, 39));
+
+
+}
+
+@media (max-width:1000px){
+    .div h4 {
+        font-size: 10px;
+        position: relative;
+        left: -200px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        left: -220px;
+        top: 50px;
+    }
+
+    
+}
